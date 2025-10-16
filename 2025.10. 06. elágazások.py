@@ -48,3 +48,19 @@ else:
 #ottho tessék lemásolni a github-os repository tartalmát (pull)
 #házi feladar elkészítése
 #add, commit , push 
+
+#páros kétjegyű [5,44]*2
+#100/7 = 7,6
+# 999/13 = 76,8
+a = random.randit(8,76)*13
+b = random.randit(8,76)*13
+c = random.randit(8,76)*13
+
+szamjegy = int(input("adjon meg egy számjegyet"))
+
+print (a,b,c)
+
+if(a % 10 == szamjegy or b == szamjegy or c % 10 == szamjegy):
+    print("van közte "+str(szamjegy)+"-re végződő")
+else:
+    print("nincs közte "+str(szamjegy)+"-re végződő")
