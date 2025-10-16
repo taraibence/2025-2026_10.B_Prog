@@ -20,3 +20,8 @@ print("első karakter" ,szoveg[0])
 karakter = szoveg[0]
 kod = ord(szoveg[0])
 print(kod)
+ujkod = kod + 1
+ujkarakter = chr(ujkod)
+print(ujkarakter)
+
+a = (random.randit(97,122))
