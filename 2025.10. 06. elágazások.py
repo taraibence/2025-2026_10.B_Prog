@@ -64,3 +64,6 @@ if(a % 10 == szamjegy or b == szamjegy or c % 10 == szamjegy):
     print("van közte "+str(szamjegy)+"-re végződő")
 else:
     print("nincs közte "+str(szamjegy)+"-re végződő")
+
+
+

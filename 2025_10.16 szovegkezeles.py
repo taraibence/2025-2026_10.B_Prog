@@ -25,3 +25,20 @@ ujkarakter = chr(ujkod)
 print(ujkarakter)
 
 a = (random.randit(97,122))
+
+#HF
+nev = input("adja meg a keresztnevét: ")
+hossz = len(nev)
+if hossz >= 3:
+    kod1 = ord(nev[0])
+    kod2 = ord(nev[1])
+    kod3 = ord(nev[2])
+    jelszo = kod1 * kod2 * kod3     
+elif hossz == 2:
+    kod1 = ord(nev[0])
+    kod2 = ord(nev[1])
+    jelszo = kod1 * kod2 * hossz
+else:
+    kod1 = ord(nev[0])
+    jelszo = kod1 * (hossz ** 3)
+print("a jelszava:", jelszo)
