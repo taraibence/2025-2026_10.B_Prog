@@ -55,3 +55,22 @@ print(aEgesz+int(szSzám))
 print(szSzám+str(aEgesz))
 
 15%7
+
+
+
+
+
+
+
+# Generáljon ki három véletlen háromjegyű számot, amelyek 13-mal oszthatók!
+# Állítsa ezeket sorrendbe!
+# Adja meg az átlaguk!
+# Van-e közöttük 4-el végződő? 
+
+import random
+szam = random.randint (100; 999)
+if szam = % 13 == 0 :
+    print(szamok)
+rendezes = sorted
+    print(veletlen szamok, szamok)
+    print(rendezes, sorban)
